@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  
+
+<link rel="stylesheet" href="node_modules/sweetalert2/dist/sweetalert2.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <main>
+    <nav class="navbar navbar-light  py-5">
+      <div class="container-fluid d-flex justify-content-between align-items-center">
+        <div>
+          <a href="index.html" class="text-decoration-none">
+            <div class="d-flex">
+              <img src="images/logo@2x.png" class="me-3" alt="">
+              <div>
+                <h6 class="text-white m-0">Weather</h6>
+                <p class="nav_prag m-0">taglines go here</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div id="anchores_div">
+          <a href="index.html" class="text-decoration-none  mx-3 active px-4 anchor">Home</a>
+          <a href="" class="text-decoration-none  mx-3  px-4 anchor">News</a>
+          <a href="" class="text-decoration-none  mx-3  px-4 anchor">Live cameras</a>
+          <a href="" class="text-decoration-none  mx-3  px-4 anchor">Photos</a>
+          <a href="" class="text-decoration-none  mx-3  px-4 anchor">contact</a>
+        </div>
+      </div>
+    </nav>
+    <section class="pb-5">
+      <div class="d-flex justify-content-center align-items-center">
+        <form action="" class="my-5  w-75 position-relative" >
+          <input type="text" class="class_my_color py-4 w-100 border border-0 rounded-5 " id="location"  placeholder="      find your location">
+          <button class="position-absolute py-3 px-5 border border-0 rounded-5 my_info_color text-white" id="find_btn" type="button" >Find</button>
+        </form>
+      </div>
+      <div class="w-100  d-flex justify-content-center align-items-center">
+        <div class="w-75 bg-info h-50 row position-relative" >
+             <div class="col-md-4 d-flex justify-content-between align-items-center light_gray text-white">
+              <p id="current_day"></p>
+              <p id="current_num_month"></p>
+             </div>
+             <div class="col-md-4 text-white dark_gray text-center" id="nextday_1"></div>
+             <div class="col-md-4 light_gray text-white text-center" id="nextday_2"></div>
+             <div class="col-md-4 my_special_div light_gray " id="spinner_div">
+              <!-- <p class="special_color">cairo</p>
+              <h1 class="text-white">31</h1>
+              <img src=""></img>
+              <p class="light_blue">partly cloudy</p>
+              <div class="d-flex">
+                <div class="d-flex  me-2">
+                  <img src="images/icon-umberella@2x.png" alt="">
+                  <p class="special_color">20%</p>
+                </div>
+                <div class="d-flex me-2">
+                  <img src="images/icon-wind@2x.png" alt="">
+                  <p class="special_color">18km/h</p>
+                </div>
+                <div class="d-flex me-2">
+                  <img src="images/icon-compass@2x.png" alt="">
+                  <p class="special_color">east</p>
+                </div>
+              </div> -->
+             </div>
+             <div class="col-md-4 text-center dark_gray" id="my_own_div_1">
+              <!-- <img src="images/113.png" alt="">
+              <p class="fs-2 text-white"></p>
+              <p class="fs-4 class_my_gray"></p>
+              <p class="light_blue"> </p> -->
+             </div>
+             <div class="col-md-4 text-center light_gray" id="my_own_div_2">
+              <!-- <img src="images/113.png" alt="">
+              <p class="fs-2 text-white">42.4</p>
+              <p class="fs-4 class_my_gray">29.7</p>
+              <p class="light_blue"> sunny</p> -->
+             </div>
+             
+        </div>
+      </div>
+    </section>
+    <footer class="p-3 light_gray">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-8">
+            <form action="" class="w-100 position-relative">
+              <input type="text" class="class_my_color py-md-2 w-100 border border-0 rounded-5" placeholder="       Enter your email to subscribe">
+              <button class="position-absolute  px-5 border border-0 rounded-5 my_info_color text-white" type="button" >subscribe</button>
+            </form>
+          </div>
+          <div class="col-md-4 d-flex">
+            <div  class="icon_div  me-3 position-relative"> <i class="fa-brands fa-facebook position-absolute "></i></div>
+            <div class="icon_div  me-3  position-relative"><i class="fa-brands fa-twitter position-absolute  "></i></div>
+            <div class="icon_div  me-3  position-relative"><i class="fa-brands fa-google-plus  position-absolute "></i></div>
+            <div class="icon_div  me-3  position-relative"><i class="fa-brands fa-pinterest position-absolute "></i></div>
+           
+            
+            
+            
+          </div>
+          <p class="text-white">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+
+
+
+
+
+
+
+
+
+  <script src="node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
